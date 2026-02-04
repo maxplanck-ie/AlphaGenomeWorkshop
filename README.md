@@ -18,8 +18,19 @@ Click Select Kernel > Colab > New Colab Server.
 
 # How to get started with Google Colab
 
-Go to Google AI Studio and log in with your Google account.
-Create an API key https://aistudio.google.com/api-keys 
+Go to https://colab.research.google.com/ , log in with your google account
+Under the secrets tab create a new API Key ALPHA_GENOME_API_KEY
+
+
+# Clone this repository
+
+git clone git@github.com:maxplanck-ie/
+
+Open the repository in quick_start.ipynb replace
+
+dna_model = dna_client.create(colab_utils.get_api_key())
+with
+dna_model = dna_client.create(ALPHA_GENOME_API_KEY)
 
 
 
