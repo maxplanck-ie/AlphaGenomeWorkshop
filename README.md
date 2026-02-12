@@ -5,10 +5,15 @@ This repository contains a modified jupyter notebook for Google DeepMind AlphaGe
 # Creating the environment
 
 git clone -b main https://github.com/maxplanck-ie/AlphaGenomeWorkshop.git
+
 conda env create -f alphagenome.yaml
+
 conda activate alphagenome
+
 conda install ipykernel -y
+
 python -m ipykernel install --user --name alphagenome --display-name "alphagenome"
+
 
 # Open Visual Studio Code (or download it if you don't have it)
 
