@@ -6,6 +6,8 @@ This repository contains a modified jupyter notebook for Google DeepMind AlphaGe
 
 git clone -b main https://github.com/maxplanck-ie/AlphaGenomeWorkshop.git
 
+cd AlphaGenomeWorkshop
+
 conda env create -f alphagenome.yaml
 
 conda activate alphagenome
